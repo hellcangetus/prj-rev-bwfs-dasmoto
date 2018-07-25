@@ -1,36 +1,115 @@
 body{
   font-family: Helvetica, Arial, sans-serif;
 }
-
+/* Header */
 .image{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+background-size: 1500px;
 bottom: 0;
+height: 200px;
 }
 
 h1{
   display: block;
   text-align: center;
-  font-size: 100px;
+  margin: auto;
+  font-size: 90px;
   font-weight: Bold;
-  Color: Khaki;
+  Color: white;
+  text-shadow: 2px 0px 12px black;
+  position: absolute;
+   top: 14%;
+   left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
 }
-h2{font-size: 32px;
+
+/* secondary headers */
+h2{
+  font-size: 32px;
 font-weight: bold;
-color: white;}
-
-.brushes{
-  background-color: mediumspringgreen;
+color: white;
+margin-top: auto;
+margin-bottom: auto;
+margin-right: auto;
+margin-left: 50px;
 }
 
-.frames{
+/* content titles */
+h3{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: 40px;
+  padding-top: 65px;
+  padding-bottom: 10px;
+}
+
+#brushes{
+  background-color: #4dd666;
+  display: block;
+  text-align: center;
+  margin: auto;
+  Color: white;
+  position: absolute;
+   top: 58%;
+   left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+
+}
+
+#frames{
     background-color: lightcoral;
+    display: block;
+    text-align: center;
+    margin: auto;
+    Color: white;
+    position: absolute;
+     top: 119%;
+     left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
 }
 
-.paint{
+#paint{
     background-color: skyblue;
+    display: block;
+    text-align: center;
+    margin: auto;
+    Color: white;
+    position: absolute;
+     top: 181%;
+     left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
 }
 
+/* content details */
+/* images*/
+.hacksaw{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 50px;
+}
+
+/* text */
 .blue{
   color: blue;
   font-weight: bold;
+}
+
+
+p{
+  margin-top: auto;
+  margin-bottom: auto;
+margin-right: 40px;
+  margin-left: 40px;
+  padding-bottom: 70px
+}
+
+hr{
+border-bottom: 1px gray;
+width: 400px;
 }
